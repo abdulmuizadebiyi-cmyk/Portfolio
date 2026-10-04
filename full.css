@@ -1,0 +1,135 @@
+/* Desktop/Laptop stylesheet */
+
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(#14213d, #1f2f50);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #1f2f50;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #fca311;
+    color: #14213d;
+}
+
+/* Main page content */
+main {
+    width: 80%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+/* Headings */
+h2 {
+    color: #14213d;
+    border-bottom: 2px solid #fca311;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #14213d;
+}
+
+/* Project cards */
+article {
+    background-color: #f7f7f7;
+    border-left: 5px solid #fca311;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Profile image */
+.profile-photo {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Video */
+video {
+    display: block;
+    width: 70%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Contact form */
+form {
+    width: 70%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaaaaa;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #14213d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fca311;
+    color: #14213d;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #14213d, #1f2f50);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
