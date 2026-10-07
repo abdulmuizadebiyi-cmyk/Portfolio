@@ -11,7 +11,7 @@ The website contains four pages:
 - Projects
 - Contact Me
 
-The portfolio provides information about me, some of the projects I have worked on, and a contact form.
+The portfolio provides information about me, some of the projects I have worked on, an introduction video, and a contact form.
 
 ## Technologies Used
 
@@ -25,17 +25,7 @@ The website uses three separate CSS files for different screen sizes:
 - `full.css` - Desktop and laptop
 - `tablet.css` - Tablet
 - `phone.css` - Mobile phone
-## Color Scheme
 
-The website uses a dark blue, orange, white, and light gray color scheme.
-
-The dark blue colors are used mainly for the header, navigation, footer, headings, and buttons. Orange is used as an accent color for borders and hover effects. White and light gray are used for the main content areas to make the text easy to read.
-
-## Gradients
-
-A linear gradient is used in the header using dark blue colors.
-
-An angled 45-degree linear gradient is used in the footer. These gradients were added to improve the appearance of the website while keeping the same color scheme.
 ## Viewport Sizes
 
 The website uses three different stylesheets to make the portfolio responsive on different screen sizes.
@@ -50,26 +40,24 @@ These sizes allow the layout and content to adjust depending on the device being
 
 The website uses a consistent color scheme based on colors selected using Adobe Color.
 
-Main colors used:
-
-- Dark Blue: #14213d
-- Blue: #1f2f50
-- Orange: #fca311
-- Light Gray: #f4f4f4
-- White: #ffffff
-
-The dark blue and blue are mainly used for the header, navigation, and footer. Orange is used as an accent color for borders and hover effects.
+The dark blue and blue are mainly used for the header, navigation, and footer. Orange is used as an accent color for borders and hover effects. White and light gray are used for the main content areas.
 
 ## Gradients
 
-A linear gradient with a 45-degree angle is used in the footer of the desktop/laptop stylesheet.
+A 45-degree angled linear gradient is used in the footer of the desktop/laptop stylesheet.
 
-The gradient changes from #14213d to #1f2f50.
+
+## Introduction Video
+
+The About Me page includes an HTML5 video that provides a short introduction about me and my interests in Networking and It security.
+
+## Deployment
+
+The portfolio website is hosted online using GitHub Pages. The project files are stored in a public GitHub repository and Git is used for version control.
 
 ## External Code / References
 
-Most of the HTML and CSS used in this project is based on concepts and examples covered in the course lectures.
+The HTML and CSS in this project were created using concepts and examples covered in the course materials.
 
-Any code or techniques used from outside course materials will be identified here with the appropriate citation.
+The responsive design, separate desktop, tablet, and phone stylesheets, HTML forms, HTML5 video, CSS styling, hover effects, and gradients are based on techniques covered in the course material.
 
-At this time, no significant external code has been used.
